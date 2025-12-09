@@ -1,0 +1,62 @@
+{
+  "playlists": [
+    {
+      "id": "all-videos",
+      "title": "All Vertical Videos",
+      "description": "Complete collection of all vertical mobile videos.",
+      "videos": [
+        "mobile-short-01",
+        "mobile-short-02",
+        "mobile-short-03",
+        "mobile-short-04",
+        "mobile-medium-01",
+        "mobile-medium-02",
+        "mobile-medium-03",
+        "mobile-medium-04",
+        "mobile-long-01",
+        "mobile-long-02"
+      ]
+    },
+    {
+      "id": "short-videos",
+      "title": "Short Videos",
+      "description": "Quick vertical videos under 10 seconds.",
+      "videos": [
+        "mobile-short-01",
+        "mobile-short-02",
+        "mobile-short-03",
+        "mobile-short-04"
+      ]
+    },
+    {
+      "id": "medium-videos",
+      "title": "Medium Length Videos",
+      "description": "Medium-length vertical videos between 10-35 seconds.",
+      "videos": [
+        "mobile-medium-01",
+        "mobile-medium-02",
+        "mobile-medium-03",
+        "mobile-medium-04"
+      ]
+    },
+    {
+      "id": "long-videos",
+      "title": "Long Form Videos",
+      "description": "Extended vertical videos over 25 seconds.",
+      "videos": ["mobile-long-01", "mobile-long-02"]
+    },
+    {
+      "id": "high-fps",
+      "title": "High FPS Videos",
+      "description": "Videos with 30fps or higher frame rate for smooth motion.",
+      "videos": [
+        "mobile-short-01",
+        "mobile-short-02",
+        "mobile-short-04",
+        "mobile-medium-01",
+        "mobile-medium-02",
+        "mobile-medium-03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fox CDN - Modern Video CDN via GitHub Pages</title>
+    <meta
+      name="description"
+      content="A modern, static video CDN powered by GitHub Pages. Host vertical videos with JSON API endpoints, auto-generated thumbnails, and zero backend required."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <span class="logo-icon">🦊</span>
+            <span class="logo-text">Fox CDN</span>
+          </div>
+          <a
+            href="https://github.com/trebla-io/fox-cdn"
+            target="_blank"
+            class="nav-link github-link"
+          >
+            <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+              GitHub
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="badge">Static CDN • Zero Backend</div>
+          <h1 class="hero-title">
+            Modern Video CDN<br />via
+            <span class="gradient-text">GitHub Pages</span>
+          </h1>
+          <p class="hero-description">
+            Host vertical videos with JSON API endpoints, auto-generated
+            thumbnails, and real metadata extraction. No backend required.
+          </p>
+          <div class="hero-actions">
+            <a href="#api" class="btn btn-primary">View API Docs</a>
+            <a
+              href="https://github.com/trebla-io/fox-cdn"
+              target="_blank"
+              class="btn btn-secondary"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+              View on GitHub
+            </a>
+          </div>
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-value">10</div>
+              <div class="stat-label">Videos</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">180MB</div>
+              <div class="stat-label">Total Size</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">3</div>
+              <div class="stat-label">API Endpoints</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">5</div>
+              <div class="stat-label">Playlists</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-bg"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <h2 class="section-title">Why Fox CDN?</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3 class="feature-title">Zero Backend</h3>
+            <p class="feature-description">
+              Pure static files served via GitHub Pages. No server setup, no
+              infrastructure costs.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🎬</div>
+            <h3 class="feature-title">Auto Thumbnails</h3>
+            <p class="feature-description">
+              Thumbnails automatically generated from video frames using ffmpeg.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📊</div>
+            <h3 class="feature-title">Real Metadata</h3>
+            <p class="feature-description">
+              Accurate video data extracted via ffprobe: duration, bitrate, FPS,
+              dimensions.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">📱</div>
+            <h3 class="feature-title">Mobile Optimized</h3>
+            <p class="feature-description">
+              Vertical videos (1080x1920) perfect for mobile and social media.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🔌</div>
+            <h3 class="feature-title">JSON API</h3>
+            <p class="feature-description">
+              RESTful-style API endpoints for videos, feeds, and playlists.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">🌐</div>
+            <h3 class="feature-title">CORS Friendly</h3>
+            <p class="feature-description">
+              Public CDN with CORS enabled for easy cross-origin requests.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- API Section -->
+    <section id="api" class="api">
+      <div class="container">
+        <h2 class="section-title">API Reference</h2>
+        <p class="section-subtitle">
+          Simple JSON endpoints for accessing video data
+        </p>
+
+        <div class="api-grid">
+          <!-- Videos Endpoint -->
+          <div class="api-card">
+            <div class="api-header">
+              <span class="api-method">GET</span>
+              <code class="api-endpoint">/api/videos.json</code>
+              <a href="../api/videos.json" target="_blank" class="api-view-btn"
+                >View API →</a
+              >
+            </div>
+            <p class="api-description">
+              Returns complete catalog with video metadata, sources, and
+              thumbnails.
+            </p>
+            <div class="code-block">
+              <div class="code-header">
+                <span>Response</span>
+                <button
+                  class="copy-btn"
+                  onclick="copyCode(this, 'videos-response')"
+                >
+                  Copy
+                </button>
+              </div>
+              <pre id="videos-response"><code>{
+  "version": 1,
+  "updated_at": "2025-12-09T15:00:00Z",
+  "videos": [
+    {
+      "id": "4761249",
+      "slug": "mobile-short-01",
+      "title": "Mobile Portrait Short 01",
+      "duration_seconds": 5.91,
+      "fps": 30,
+      "size_bytes": 3786660,
+      "tags": ["vertical", "mobile", "short"],
+      "sources": [{
+        "quality": "1080p",
+        "codec": "h264",
+        "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-short-01/video.mp4"
+      }],
+      "thumbnail": {
+        "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-short-01/thumbnail.jpg"
+      }
+    }
+  ]
+}</code></pre>
+            </div>
+          </div>
+
+          <!-- Feed Endpoint -->
+          <div class="api-card">
+            <div class="api-header">
+              <span class="api-method">GET</span>
+              <code class="api-endpoint">/api/feed.json</code>
+              <a href="../api/feed.json" target="_blank" class="api-view-btn"
+                >View API →</a
+              >
+            </div>
+            <p class="api-description">
+              Returns ordered feed of video IDs for sequential playback.
+            </p>
+            <div class="code-block">
+              <div class="code-header">
+                <span>Response</span>
+                <button
+                  class="copy-btn"
+                  onclick="copyCode(this, 'feed-response')"
+                >
+                  Copy
+                </button>
+              </div>
+              <pre id="feed-response"><code>{
+  "version": 1,
+  "feed": [
+    { "video_id": "mobile-short-01", "position": 1 },
+    { "video_id": "mobile-short-02", "position": 2 },
+    { "video_id": "mobile-short-03", "position": 3 }
+  ]
+}</code></pre>
+            </div>
+          </div>
+
+          <!-- Playlists Endpoint -->
+          <div class="api-card">
+            <div class="api-header">
+              <span class="api-method">GET</span>
+              <code class="api-endpoint">/api/playlists.json</code>
+              <a
+                href="../api/playlists.json"
+                target="_blank"
+                class="api-view-btn"
+                >View API →</a
+              >
+            </div>
+            <p class="api-description">
+              Returns curated playlists organized by video length and
+              characteristics.
+            </p>
+            <div class="code-block">
+              <div class="code-header">
+                <span>Response</span>
+                <button
+                  class="copy-btn"
+                  onclick="copyCode(this, 'playlists-response')"
+                >
+                  Copy
+                </button>
+              </div>
+              <pre id="playlists-response"><code>{
+  "playlists": [
+    {
+      "id": "short-videos",
+      "title": "Short Videos",
+      "description": "Quick clips under 10 seconds",
+      "videos": ["mobile-short-01", "mobile-short-02"]
+    }
+  ]
+}</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Examples Section -->
+    <section id="examples" class="examples">
+      <div class="container">
+        <h2 class="section-title">Code Examples</h2>
+        <p class="section-subtitle">
+          Get started in minutes with these examples
+        </p>
+
+        <div class="examples-tabs">
+          <button class="tab-btn active" onclick="switchTab('fetch')">
+            Fetch Videos
+          </button>
+          <button class="tab-btn" onclick="switchTab('play')">
+            Play Video
+          </button>
+          <button class="tab-btn" onclick="switchTab('playlist')">
+            Load Playlist
+          </button>
+        </div>
+
+        <div class="tab-content active" id="fetch-tab">
+          <div class="code-block">
+            <div class="code-header">
+              <span>TypeScript</span>
+              <button class="copy-btn" onclick="copyCode(this, 'fetch-code')">
+                Copy
+              </button>
+            </div>
+            <pre id="fetch-code"><code>async function fetchVideos() {
+  const res = await fetch(
+    "https://trebla-io.github.io/fox-cdn/api/videos.json"
+  );
+  
+  if (!res.ok) {
+    throw new Error("Failed to fetch videos");
+  }
+  
+  const data = await res.json();
+  return data.videos;
+}
+
+// Usage
+const videos = await fetchVideos();
+console.log(`Found ${videos.length} videos`);</code></pre>
+          </div>
+        </div>
+
+        <div class="tab-content" id="play-tab">
+          <div class="code-block">
+            <div class="code-header">
+              <span>TypeScript</span>
+              <button class="copy-btn" onclick="copyCode(this, 'play-code')">
+                Copy
+              </button>
+            </div>
+            <pre id="play-code"><code>async function playVideo(slug: string) {
+  const videos = await fetchVideos();
+  const video = videos.find(v => v.slug === slug);
+  
+  if (!video) {
+    throw new Error(`Video not found: ${slug}`);
+  }
+  
+  const videoElement = document.createElement('video');
+  videoElement.src = video.sources[0].url;
+  videoElement.poster = video.thumbnail.url;
+  videoElement.autoplay = true;
+  videoElement.loop = video.meta.loop;
+  videoElement.muted = video.meta.mute_default;
+  
+  document.body.appendChild(videoElement);
+  return videoElement;
+}
+
+// Play a short video
+playVideo('mobile-short-01');</code></pre>
+          </div>
+        </div>
+
+        <div class="tab-content" id="playlist-tab">
+          <div class="code-block">
+            <div class="code-header">
+              <span>TypeScript</span>
+              <button
+                class="copy-btn"
+                onclick="copyCode(this, 'playlist-code')"
+              >
+                Copy
+              </button>
+            </div>
+            <pre
+              id="playlist-code"
+            ><code>async function loadPlaylist(playlistId: string) {
+  const [playlists, videos] = await Promise.all([
+    fetch("https://trebla-io.github.io/fox-cdn/api/playlists.json")
+      .then(r => r.json()),
+    fetchVideos()
+  ]);
+  
+  const playlist = playlists.playlists.find(
+    p => p.id === playlistId
+  );
+  
+  if (!playlist) {
+    throw new Error(`Playlist not found: ${playlistId}`);
+  }
+  
+  return playlist.videos.map(slug => 
+    videos.find(v => v.slug === slug)
+  );
+}
+
+// Load short videos playlist
+const shortVideos = await loadPlaylist('short-videos');</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Videos Showcase -->
+    <section id="videos" class="videos">
+      <div class="container">
+        <h2 class="section-title">Video Library</h2>
+        <p class="section-subtitle">10 vertical videos organized by length</p>
+
+        <div class="video-categories">
+          <button class="category-btn active" onclick="filterVideos('all')">
+            All (10)
+          </button>
+          <button class="category-btn" onclick="filterVideos('short')">
+            Short (4)
+          </button>
+          <button class="category-btn" onclick="filterVideos('medium')">
+            Medium (4)
+          </button>
+          <button class="category-btn" onclick="filterVideos('long')">
+            Long (2)
+          </button>
+        </div>
+
+        <div class="videos-grid" id="videos-grid">
+          <!-- Videos will be loaded dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Streaming Section -->
+    <section id="stream" class="stream">
+      <div class="container">
+        <h2 class="section-title">Professional Video Streaming</h2>
+        <p class="section-subtitle">
+          Stream-ready CDN with embeddable player and direct video access
+        </p>
+
+        <div class="stream-container">
+          <!-- Video Player -->
+          <div class="stream-player">
+            <div class="player-wrapper" id="player-wrapper">
+              <video
+                id="stream-video"
+                class="video-player"
+                controls
+                poster=""
+                preload="metadata"
+              >
+                <source src="" type="video/mp4" />
+                Your browser does not support video playback.
+              </video>
+              <div class="player-overlay" id="player-overlay">
+                <div class="player-overlay-content">
+                  <div class="play-icon">▶</div>
+                  <p class="player-message">
+                    Select a video to start streaming
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Player Controls Info -->
+            <div class="player-info">
+              <div class="player-info-row">
+                <span class="player-info-label">Status:</span>
+                <span class="player-info-value" id="player-status">Ready</span>
+              </div>
+              <div class="player-info-row">
+                <span class="player-info-label">Quality:</span>
+                <span class="player-info-value" id="player-quality">1080p</span>
+              </div>
+              <div class="player-info-row">
+                <span class="player-info-label">Codec:</span>
+                <span class="player-info-value" id="player-codec">H.264</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stream Options -->
+          <div class="stream-options">
+            <h3 class="stream-subtitle">Stream Options</h3>
+
+            <!-- Video Selector -->
+            <div class="option-group">
+              <label class="option-label">Select Video</label>
+              <select
+                id="video-selector"
+                class="video-select"
+                onchange="selectVideo(this.value)"
+              >
+                <option value="">Choose a video...</option>
+              </select>
+            </div>
+
+            <!-- Direct Access -->
+            <div class="option-group">
+              <label class="option-label">Direct Video URL</label>
+              <div class="url-display">
+                <input
+                  type="text"
+                  id="video-url"
+                  class="url-input"
+                  readonly
+                  placeholder="Select a video to get URL"
+                />
+                <button class="url-copy-btn" onclick="copyVideoUrl()">
+                  Copy
+                </button>
+              </div>
+            </div>
+
+            <!-- Thumbnail URL -->
+            <div class="option-group">
+              <label class="option-label">Thumbnail URL</label>
+              <div class="url-display">
+                <input
+                  type="text"
+                  id="thumbnail-url"
+                  class="url-input"
+                  readonly
+                  placeholder="Select a video to get thumbnail"
+                />
+                <button class="url-copy-btn" onclick="copyThumbnailUrl()">
+                  Copy
+                </button>
+              </div>
+            </div>
+
+            <!-- Embed Code -->
+            <div class="option-group">
+              <label class="option-label">HTML Embed Code</label>
+              <div class="code-embed">
+                <pre
+                  id="embed-code"
+                  class="embed-code-pre"
+                ><code>&lt;!-- Select a video to generate embed code --&gt;</code></pre>
+                <button class="url-copy-btn" onclick="copyEmbedCode()">
+                  Copy
+                </button>
+              </div>
+            </div>
+
+            <!-- Stream Stats -->
+            <div class="stream-stats">
+              <div class="stat-item">
+                <div class="stat-icon">🎬</div>
+                <div class="stat-details">
+                  <div class="stat-value" id="stream-duration">--</div>
+                  <div class="stat-label">Duration</div>
+                </div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">📊</div>
+                <div class="stat-details">
+                  <div class="stat-value" id="stream-size">--</div>
+                  <div class="stat-label">File Size</div>
+                </div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">⚡</div>
+                <div class="stat-details">
+                  <div class="stat-value" id="stream-fps">--</div>
+                  <div class="stat-label">FPS</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="logo">
+              <span class="logo-icon">🦊</span>
+              <span class="logo-text">Fox CDN</span>
+            </div>
+            <p class="footer-text">Modern video CDN powered by GitHub Pages</p>
+          </div>
+          <div class="footer-section">
+            <h4 class="footer-title">Resources</h4>
+            <a href="#api" class="footer-link">API Docs</a>
+            <a href="#examples" class="footer-link">Examples</a>
+            <a href="https://github.com/trebla-io/fox-cdn" class="footer-link"
+              >GitHub</a
+            >
+          </div>
+          <div class="footer-section">
+            <h4 class="footer-title">API Endpoints</h4>
+            <a href="/api/videos.json" class="footer-link">videos.json</a>
+            <a href="/api/feed.json" class="footer-link">feed.json</a>
+            <a href="/api/playlists.json" class="footer-link">playlists.json</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Fox CDN. Built with ❤️ for GitHub Pages.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

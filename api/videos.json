@@ -1,0 +1,296 @@
+{
+  "version": 1,
+  "updated_at": "2025-12-09T15:00:00Z",
+  "videos": [
+    {
+      "id": "4761249",
+      "slug": "mobile-short-01",
+      "title": "Mobile Portrait Short 01",
+      "description": "High-quality vertical video optimized for mobile viewing.",
+      "orientation": "vertical",
+      "duration_seconds": 5.91,
+      "fps": 30,
+      "size_bytes": 3786660,
+      "tags": ["vertical", "mobile", "short", "1080p"],
+      "sources": [
+        {
+          "quality": "1080p",
+          "codec": "h264",
+          "bitrate_kbps": 5127,
+          "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-short-01/video.mp4"
+        }
+      ],
+      "thumbnail": {
+        "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-short-01/thumbnail.jpg",
+        "width": 480,
+        "height": 854
+      },
+      "meta": {
+        "provider": "github-cdn",
+        "loop": true,
+        "mute_default": true
+      }
+    },
+    {
+      "id": "11995170",
+      "slug": "mobile-short-02",
+      "title": "Mobile Portrait Short 02",
+      "description": "High-quality vertical video optimized for mobile viewing.",
+      "orientation": "vertical",
+      "duration_seconds": 7.9,
+      "fps": 30,
+      "size_bytes": 13991232,
+      "tags": ["vertical", "mobile", "short", "1080p"],
+      "sources": [
+        {
+          "quality": "1080p",
+          "codec": "h264",
+          "bitrate_kbps": 14168,
+          "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-short-02/video.mp4"
+        }
+      ],
+      "thumbnail": {
+        "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-short-02/thumbnail.jpg",
+        "width": 480,
+        "height": 854
+      },
+      "meta": {
+        "provider": "github-cdn",
+        "loop": true,
+        "mute_default": true
+      }
+    },
+    {
+      "id": "14740622",
+      "slug": "mobile-short-04",
+      "title": "Mobile Portrait Short 04",
+      "description": "High-quality vertical video optimized for mobile viewing.",
+      "orientation": "vertical",
+      "duration_seconds": 7.47,
+      "fps": 30,
+      "size_bytes": 6484463,
+      "tags": ["vertical", "mobile", "short", "1080p"],
+      "sources": [
+        {
+          "quality": "1080p",
+          "codec": "h264",
+          "bitrate_kbps": 6941,
+          "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-short-04/video.mp4"
+        }
+      ],
+      "thumbnail": {
+        "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-short-04/thumbnail.jpg",
+        "width": 480,
+        "height": 854
+      },
+      "meta": {
+        "provider": "github-cdn",
+        "loop": true,
+        "mute_default": true
+      }
+    },
+    {
+      "id": "14085563",
+      "slug": "mobile-short-03",
+      "title": "Mobile Portrait Short 03",
+      "description": "High-quality vertical video optimized for mobile viewing.",
+      "orientation": "vertical",
+      "duration_seconds": 8.8,
+      "fps": 25,
+      "size_bytes": 5576829,
+      "tags": ["vertical", "mobile", "short", "1080p"],
+      "sources": [
+        {
+          "quality": "1080p",
+          "codec": "h264",
+          "bitrate_kbps": 5070,
+          "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-short-03/video.mp4"
+        }
+      ],
+      "thumbnail": {
+        "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-short-03/thumbnail.jpg",
+        "width": 480,
+        "height": 854
+      },
+      "meta": {
+        "provider": "github-cdn",
+        "loop": true,
+        "mute_default": true
+      }
+    },
+    {
+      "id": "14485388",
+      "slug": "mobile-medium-03",
+      "title": "Mobile Portrait Medium 03",
+      "description": "High-quality vertical video optimized for mobile viewing.",
+      "orientation": "vertical",
+      "duration_seconds": 11.9,
+      "fps": 30,
+      "size_bytes": 18732270,
+      "tags": ["vertical", "mobile", "medium", "1080p"],
+      "sources": [
+        {
+          "quality": "1080p",
+          "codec": "h264",
+          "bitrate_kbps": 12593,
+          "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-medium-03/video.mp4"
+        }
+      ],
+      "thumbnail": {
+        "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-medium-03/thumbnail.jpg",
+        "width": 480,
+        "height": 854
+      },
+      "meta": {
+        "provider": "github-cdn",
+        "loop": true,
+        "mute_default": true
+      }
+    },
+    {
+      "id": "12529228",
+      "slug": "mobile-medium-02",
+      "title": "Mobile Portrait Medium 02",
+      "description": "High-quality vertical video optimized for mobile viewing. High framerate 60fps.",
+      "orientation": "vertical",
+      "duration_seconds": 11.9,
+      "fps": 60,
+      "size_bytes": 46825580,
+      "tags": ["vertical", "mobile", "medium", "1080p", "60fps"],
+      "sources": [
+        {
+          "quality": "1080p",
+          "codec": "h264",
+          "bitrate_kbps": 31479,
+          "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-medium-02/video.mp4"
+        }
+      ],
+      "thumbnail": {
+        "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-medium-02/thumbnail.jpg",
+        "width": 480,
+        "height": 854
+      },
+      "meta": {
+        "provider": "github-cdn",
+        "loop": true,
+        "mute_default": true
+      }
+    },
+    {
+      "id": "20393608",
+      "slug": "mobile-medium-04",
+      "title": "Mobile Portrait Medium 04",
+      "description": "High-quality vertical video optimized for mobile viewing.",
+      "orientation": "vertical",
+      "duration_seconds": 21.1,
+      "fps": 25,
+      "size_bytes": 14688924,
+      "tags": ["vertical", "mobile", "medium", "1080p"],
+      "sources": [
+        {
+          "quality": "1080p",
+          "codec": "h264",
+          "bitrate_kbps": 5570,
+          "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-medium-04/video.mp4"
+        }
+      ],
+      "thumbnail": {
+        "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-medium-04/thumbnail.jpg",
+        "width": 480,
+        "height": 854
+      },
+      "meta": {
+        "provider": "github-cdn",
+        "loop": true,
+        "mute_default": true
+      }
+    },
+    {
+      "id": "20631643",
+      "slug": "mobile-long-02",
+      "title": "Mobile Portrait Long 02",
+      "description": "High-quality vertical video optimized for mobile viewing.",
+      "orientation": "vertical",
+      "duration_seconds": 27.71,
+      "fps": 24,
+      "size_bytes": 17165310,
+      "tags": ["vertical", "mobile", "long", "1080p"],
+      "sources": [
+        {
+          "quality": "1080p",
+          "codec": "h264",
+          "bitrate_kbps": 4955,
+          "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-long-02/video.mp4"
+        }
+      ],
+      "thumbnail": {
+        "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-long-02/thumbnail.jpg",
+        "width": 480,
+        "height": 854
+      },
+      "meta": {
+        "provider": "github-cdn",
+        "loop": true,
+        "mute_default": true
+      }
+    },
+    {
+      "id": "10975573",
+      "slug": "mobile-medium-01",
+      "title": "Mobile Portrait Medium 01",
+      "description": "High-quality vertical video optimized for mobile viewing.",
+      "orientation": "vertical",
+      "duration_seconds": 32.11,
+      "fps": 30,
+      "size_bytes": 21294283,
+      "tags": ["vertical", "mobile", "medium", "1080p"],
+      "sources": [
+        {
+          "quality": "1080p",
+          "codec": "h264",
+          "bitrate_kbps": 5306,
+          "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-medium-01/video.mp4"
+        }
+      ],
+      "thumbnail": {
+        "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-medium-01/thumbnail.jpg",
+        "width": 480,
+        "height": 854
+      },
+      "meta": {
+        "provider": "github-cdn",
+        "loop": true,
+        "mute_default": true
+      }
+    },
+    {
+      "id": "5081753",
+      "slug": "mobile-long-01",
+      "title": "Mobile Portrait Long 01",
+      "description": "High-quality vertical video optimized for mobile viewing. Extended format.",
+      "orientation": "vertical",
+      "duration_seconds": 67.84,
+      "fps": 25,
+      "size_bytes": 31776696,
+      "tags": ["vertical", "mobile", "long", "1080p"],
+      "sources": [
+        {
+          "quality": "1080p",
+          "codec": "h264",
+          "bitrate_kbps": 3747,
+          "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-long-01/video.mp4"
+        }
+      ],
+      "thumbnail": {
+        "url": "https://trebla-io.github.io/fox-cdn/videos/mobile-long-01/thumbnail.jpg",
+        "width": 480,
+        "height": 912
+      },
+      "meta": {
+        "provider": "github-cdn",
+        "loop": true,
+        "mute_default": true
+      }
+    }
+  ]
+}

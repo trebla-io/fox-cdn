@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "feed": [
+    { "video_id": "mobile-short-01", "position": 1 },
+    { "video_id": "mobile-short-02", "position": 2 },
+    { "video_id": "mobile-short-03", "position": 3 },
+    { "video_id": "mobile-short-04", "position": 4 },
+    { "video_id": "mobile-medium-01", "position": 5 },
+    { "video_id": "mobile-medium-02", "position": 6 },
+    { "video_id": "mobile-medium-03", "position": 7 },
+    { "video_id": "mobile-medium-04", "position": 8 },
+    { "video_id": "mobile-long-01", "position": 9 },
+    { "video_id": "mobile-long-02", "position": 10 }
+  ]
+}
